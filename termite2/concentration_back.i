@@ -46,8 +46,8 @@ active = 'concentration_diff concentration_convection concentration_convection_t
   [temp_parsed]
     type = ParsedAux
     use_xyzt = true
-    function = 1
-#    function = '-1500*x*x + 2000'
+#    function = 1
+    function = '-1500*x*x + 2000'
     variable = temp
   []
 []
